@@ -1,6 +1,8 @@
 # Quiz Management System
 
 This is a simple Quiz Management System developed using HTML, CSS, and JavaScript. It allows users to select a category, set the number of questions, and choose a difficulty level to start a quiz. The system fetches questions from an external API (Open Trivia Database) based on the user's preferences. Users can then attempt the quiz, answering multiple-choice questions within a time limit. The system provides real-time feedback on answers and calculates scores based on response times. At the end of the quiz, users can view their final score and compare it with their high score, which is stored locally using browser storage.
+![Alt text](display.png)
+
 
 ## Features
 

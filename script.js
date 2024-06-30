@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function fetchCategories() {
         fetch('https://opentdb.com/api_category.php').then(response => response.json()).then(data => {
         data.trivia_categories.forEach(category => {
-                const option = docatgcument.createElement('option');
+                const option = document.createElement('option');
                 option.value = category.id;
                 option.textContent = category.name;
                 categorySelect.appendChild(option);
